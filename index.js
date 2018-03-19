@@ -26,9 +26,6 @@ function makeInt(a){
   return parseInt(a,10)
 }
 
-function returnsNan(){
-  if (parseInt('0','10')) return 0}
-
 function preserveDecimal(){
   return parseFloat('2.222')
 }
