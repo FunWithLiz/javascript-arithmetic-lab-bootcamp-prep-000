@@ -31,10 +31,6 @@ function returnsNan(){
 
 function preserveDecimal(){
   return parseFloat('2.222')
-} 
-
-function nan(){
-  if (preserveDecimal('2.222') === NaN) return true
 }
 
 
