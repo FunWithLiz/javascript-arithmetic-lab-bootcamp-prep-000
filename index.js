@@ -23,7 +23,7 @@ function dec(a){
 }
 
 function makeInt(a){
-  return parseInt (a,'a')
+  return parseInt (a,'a') 
 }
 
 function assumesBase10(){
