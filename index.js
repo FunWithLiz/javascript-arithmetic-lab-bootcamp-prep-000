@@ -23,7 +23,7 @@ function dec(a){
 }
 
 function makeInt(a){
-  return parseInt (a,'a') + ('0*2328')
+  return parseInt (a,10)
 }
 
 function returnsNan(){
