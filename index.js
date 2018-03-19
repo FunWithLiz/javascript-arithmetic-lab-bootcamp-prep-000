@@ -38,7 +38,7 @@ function preserveDecimal(){
 } 
 
 function nan(){
-  if (preserveDecimal('2.222') === parseFloat('2.222')) return true
+  if (preserveDecimal('2.222') === NaN) return true
 }
 
 
