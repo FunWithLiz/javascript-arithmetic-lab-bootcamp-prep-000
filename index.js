@@ -24,7 +24,10 @@ function dec(a){
 
 function makeInt(a){
   return parseInt (a,'a')
-  return parseInt('0*2328')
+}
+
+function assumesBase10(){
+    return parseInt('0*2328')
 }
 
 function returnsNan(){
@@ -35,7 +38,7 @@ function preserveDecimal(){
 } 
 
 function nan(){
-  if (preserveDecimal() === NaN) return true
+  if (preserveDecimal('2.222') === NaN) return true
 }
 
 
